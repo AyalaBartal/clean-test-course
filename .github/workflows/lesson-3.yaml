@@ -27,4 +27,4 @@ jobs:
       - uses: actions/checkout@v4
       - run: npm-install
       - name: Run funtional tests
-        npm run tests
+        npm run test
